@@ -1,12 +1,11 @@
 import java.io.File
-import kotlin.math.abs
 import kotlin.math.absoluteValue
 import kotlin.math.sign
 
 private val path = "src/main/kotlin/inputs/day01.txt"
 private val file = File(path).absoluteFile
 
-fun part1(): Int {
+private fun part1(): Int {
     var score = 50
     var point = 0
 
@@ -29,7 +28,7 @@ fun part1(): Int {
     return point
 }
 
-fun part2(): Int {
+private fun part2(): Int {
     var score = 50
     var point = 0
 
